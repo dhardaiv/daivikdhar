@@ -57,13 +57,6 @@ export default function HomePage() {
               >
                 LinkedIn <span aria-hidden="true">↗</span>
               </a>
-              <a
-                href="https://curius.app/daivik-dhar"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Curius <span aria-hidden="true">↗</span>
-              </a>
             </nav>
           </section>
 
