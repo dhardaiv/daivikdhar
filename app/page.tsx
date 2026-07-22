@@ -6,6 +6,9 @@ export default function HomePage() {
 
   return (
     <div className="page page--home">
+      <div className="notice-banner">
+        🚧 This site is under construction
+      </div>
       <div className="home-shell">
         <main id="main-content">
           <section className="home-intro" aria-labelledby="home-title">
