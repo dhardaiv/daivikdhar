@@ -1263,7 +1263,7 @@ svg {
 .work-intro h1 {
   margin: 0;
   font-family: var(--sans);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1.5;
@@ -1273,21 +1273,21 @@ svg {
   max-width: 650px;
   margin-top: 1.5rem;
   color: var(--ink);
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 1.1rem;
+  line-height: 1.75;
 }
 
 .profile-links {
   margin-top: 1.5rem;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
 }
 
 .selected-work {
-  margin-top: clamp(4rem, 10vw, 6rem);
+  margin-top: clamp(2.5rem, 6vw, 3.5rem);
 }
 
 .selected-work > h2 {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1.5;
@@ -1295,7 +1295,7 @@ svg {
 }
 
 .work-list {
-  margin-top: 1.4rem;
+  margin-top: 1.2rem;
   border: 0;
 }
 
@@ -1305,7 +1305,7 @@ svg {
 }
 
 .work-list li + li {
-  margin-top: 1.6rem;
+  margin-top: 1.4rem;
 }
 
 .work-list a {
@@ -1322,7 +1322,7 @@ svg {
 .work-archive strong {
   display: block;
   font-family: var(--sans);
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 750;
   letter-spacing: 0;
   line-height: 1.45;
@@ -1330,24 +1330,24 @@ svg {
 
 .work-list__title-row > span {
   display: block;
-  margin-top: 0.1rem;
+  margin-top: 0.15rem;
   color: var(--quiet);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .work-list__description {
   max-width: 620px;
-  margin-top: 0.35rem;
+  margin-top: 0.4rem;
   color: var(--muted);
-  font-size: 0.88rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
 .more-work {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1.75rem;
   font-family: var(--sans);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -1433,11 +1433,15 @@ svg {
 
   .home-intro h1,
   .work-intro h1 {
+    font-size: 1.2rem;
+  }
+
+  .home-intro__copy {
     font-size: 1.05rem;
   }
 
   .selected-work {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
   }
 
   .work-list a {
