@@ -1253,6 +1253,7 @@ svg {
 .page--home main,
 .page--work main {
   padding-top: clamp(4rem, 11vw, 7rem);
+  padding-bottom: clamp(5rem, 12vw, 8rem);
 }
 
 .home-intro {
