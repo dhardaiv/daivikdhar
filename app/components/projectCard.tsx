@@ -83,45 +83,6 @@ function ProjectArtwork({ artwork }: { artwork: Artwork }) {
           </div>
         </div>
       )}
-
-      {artwork === "agriculture" && (
-        <div className="field-study">
-          <div className="field-study__topline">
-            <span>field intelligence</span>
-            <span>plot 07</span>
-          </div>
-          <div className="field-study__map">
-            {Array.from({ length: 18 }, (_, index) => (
-              <i key={index} />
-            ))}
-            <span className="field-study__target" />
-          </div>
-          <div className="field-study__legend">
-            <span>
-              <i /> healthy
-            </span>
-            <span>
-              <i /> review
-            </span>
-          </div>
-        </div>
-      )}
-
-      {artwork === "array" && (
-        <div className="array-study">
-          <div className="array-study__title">
-            <span>carbon</span>
-            <span>array</span>
-          </div>
-          <div className="array-study__grid">
-            {Array.from({ length: 30 }, (_, index) => (
-              <i key={index} />
-            ))}
-          </div>
-          <p>venture system / 2025</p>
-        </div>
-      )}
-
     </div>
   );
 }

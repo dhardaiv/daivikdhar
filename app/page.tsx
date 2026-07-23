@@ -15,32 +15,29 @@ export default function HomePage() {
             <h1 id="home-title">Daivik Dhar</h1>
             <div className="home-intro__copy">
               <p>
-                I’m a Robotics Engineering student at the University of Toronto,
+                I'm a Robotics Engineering student at the University of Toronto,
                 working at the intersection of robots and reinforcement
                 learning.
               </p>
               <p>
-                Currently, I research reinforcement learning for therapist
-                agents at{" "}
-                <a href="https://www.uhn.ca/" target="_blank" rel="noreferrer">
-                  University Health Network
+                Currently, I'm building multimodal agents with assurance teams
+                at{" "}
+                <a href="https://www.bdo.ca/" target="_blank" rel="noreferrer">
+                  BDO
                 </a>
                 .
               </p>
               <p>
-                Previously, I built enterprise-specific multimodal agents at{" "}
-                <a href="https://www.bdo.ca/" target="_blank" rel="noreferrer">
-                  BDO
-                </a>{" "}
-                and crop-intelligence tools for farmers through the{" "}
+                Previously, I researched reinforcement learning for therapist
+                agents at{" "}
                 <a
-                  href="https://hatchery.engineering.utoronto.ca/"
+                  href="https://unityhealth.to/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  U of T Hatchery
+                  Unity Health
                 </a>
-                . I’m most curious about multimodal models, coding agents, and
+                . I'm most curious about multimodal models, coding agents, and
                 systems that learn by interacting with the world.
               </p>
             </div>
