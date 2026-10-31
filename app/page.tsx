@@ -1,9 +1,6 @@
 import Link from "next/link";
-import { projects } from "./data/projects";
 
 export default function HomePage() {
-  const featuredProjects = projects.filter((project) => project.featured);
-
   return (
     <div className="page page--home">
       <div className="notice-banner">
@@ -12,7 +9,30 @@ export default function HomePage() {
       <div className="home-shell">
         <main id="main-content">
           <section className="home-intro" aria-labelledby="home-title">
-            <h1 id="home-title">Daivik Dhar</h1>
+            <div className="home-top">
+              <h1 id="home-title">Daivik Dhar</h1>
+              <nav className="top-links" aria-label="Links">
+                <Link href="/notes">Notes</Link>
+                <a href="mailto:vikdai217@gmail.com">Email</a>
+                <a
+                  href="https://www.linkedin.com/in/daivik-dhar"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+                <a href="https://x.com/dhardaiv" target="_blank" rel="noreferrer">
+                  X
+                </a>
+                <a
+                  href="https://github.com/dhardaiv"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </nav>
+            </div>
             <div className="home-intro__copy">
               <p>
                 I'm a Robotics Engineering student at the University of Toronto,
@@ -41,56 +61,6 @@ export default function HomePage() {
                 systems that learn by interacting with the world.
               </p>
             </div>
-
-            <nav className="profile-links" aria-label="Profile links">
-              <a
-                href="https://github.com/dhardaiv"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub <span aria-hidden="true">↗</span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/daivik-dhar"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn <span aria-hidden="true">↗</span>
-              </a>
-            </nav>
-          </section>
-
-          <section className="selected-work" aria-labelledby="selected-title">
-            <h2 id="selected-title">Selected work</h2>
-
-            <ol className="work-list">
-              {featuredProjects.map((project) => (
-                <li key={project.title}>
-                  <a
-                    href={project.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.title} at ${project.organization} (opens in a new tab)`}
-                  >
-                    <span className="work-list__content">
-                      <span className="work-list__title-row">
-                        <strong>{project.title}</strong>
-                        <span>
-                          {project.organization} · {project.period}
-                        </span>
-                      </span>
-                      <span className="work-list__description">
-                        {project.description}
-                      </span>
-                    </span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-
-            <Link className="more-work" href="/work">
-              More work
-            </Link>
           </section>
         </main>
       </div>

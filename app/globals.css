@@ -1654,3 +1654,133 @@ strong,
     font-size: 0.9rem;
   }
 }
+
+/* Home links and notes */
+
+.home-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1.75rem;
+}
+
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem 1.15rem;
+  margin-left: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.top-links a {
+  text-decoration-color: var(--line-dark);
+}
+
+.page--notes main {
+  padding-top: clamp(4rem, 11vw, 7rem);
+  padding-bottom: clamp(5rem, 12vw, 8rem);
+}
+
+.notes-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+}
+
+.notes-heading a {
+  color: inherit;
+  font-size: 1.15rem;
+  font-weight: 650;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.notes-heading h1 {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 1.25rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+.notes-intro {
+  max-width: 40rem;
+  margin-top: 1.15rem;
+  color: var(--ink);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.note-list {
+  margin-top: 2.4rem;
+}
+
+.note-list li + li {
+  margin-top: 1.35rem;
+}
+
+.note-list a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.note-list a span {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.note-list time,
+.note-date {
+  flex: 0 0 auto;
+  color: #8a8a8a;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.note-date {
+  margin-top: 0.45rem;
+}
+
+.note-body {
+  max-width: 40rem;
+  margin-top: 1.75rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.note-body p + p {
+  margin-top: 1.1rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .top-links a:hover,
+  .notes-heading a:hover,
+  .note-list a:hover span {
+    color: var(--accent);
+  }
+}
+
+@media (max-width: 720px) {
+  .page--notes main {
+    padding-top: 3rem;
+  }
+
+  .top-links {
+    gap: 0.35rem 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .note-list a {
+    gap: 1rem;
+  }
+}
