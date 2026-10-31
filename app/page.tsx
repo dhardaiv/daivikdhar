@@ -10,7 +10,6 @@ export default function HomePage() {
               <h1 id="home-title">Daivik Dhar</h1>
               <nav className="top-links" aria-label="Links">
                 <Link href="/notes">Notes</Link>
-                <a href="mailto:daivik.dhar@mail.utoronto.ca">Email</a>
                 <a
                   href="https://www.linkedin.com/in/daivik-dhar"
                   target="_blank"
