@@ -24,8 +24,7 @@ export default function NotesPage() {
             <h1>Notes</h1>
           </header>
           <p className="notes-intro">
-            A scratchpad for drafts and half-formed thoughts. Unfinished is
-            fine here.
+            my scratchpad for drafts and half-formed thoughts. 
           </p>
           <ul className="note-list">
             {notes.map((note) => (
