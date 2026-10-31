@@ -54,7 +54,7 @@ export default function HomePage() {
                 >
                   Unity Health
                 </a>
-                . Outside of work, I am always up for a semi-long bike ride, hike or hockey. 
+                . Outside of work, I am always up for a semi-long bike ride, hike or some tennis. 
               </p>
             </div>
           </section>
