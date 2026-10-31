@@ -3,9 +3,6 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="page page--home">
-      <div className="notice-banner">
-        🚧 This site is under construction
-      </div>
       <div className="home-shell">
         <main id="main-content">
           <section className="home-intro" aria-labelledby="home-title">
@@ -13,7 +10,7 @@ export default function HomePage() {
               <h1 id="home-title">Daivik Dhar</h1>
               <nav className="top-links" aria-label="Links">
                 <Link href="/notes">Notes</Link>
-                <a href="mailto:vikdai217@gmail.com">Email</a>
+                <a href="mailto:daivik.dhar@mail.utoronto.ca">Email</a>
                 <a
                   href="https://www.linkedin.com/in/daivik-dhar"
                   target="_blank"
@@ -57,8 +54,7 @@ export default function HomePage() {
                 >
                   Unity Health
                 </a>
-                . I'm most curious about multimodal models, coding agents, and
-                systems that learn by interacting with the world.
+                . Outside of work, I am always up for a semi-long bike ride, hike or hockey. 
               </p>
             </div>
           </section>
